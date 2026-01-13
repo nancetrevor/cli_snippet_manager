@@ -56,20 +56,20 @@ func InitialModel() AddModel {
 	inputs[name] = textinput.New()
 	inputs[name].Placeholder = "cd"
 	inputs[name].Focus()
-	inputs[name].CharLimit = 15
-	inputs[name].Width = 25
+	inputs[name].CharLimit = 85
+	inputs[name].Width = 95
 	inputs[name].Prompt = ""
 
 	inputs[desc] = textinput.New()
 	inputs[desc].Placeholder = "for changing directories"
-	inputs[desc].CharLimit = 35
-	inputs[desc].Width = 45
+	inputs[desc].CharLimit = 85
+	inputs[desc].Width = 95
 	inputs[desc].Prompt = ""
 
 	inputs[usage] = textinput.New()
 	inputs[usage].Placeholder = "cd {folder name}"
-	inputs[usage].CharLimit = 35
-	inputs[usage].Width = 45
+	inputs[usage].CharLimit = 85
+	inputs[usage].Width = 95
 	inputs[usage].Prompt = ""
 
 	return AddModel{
@@ -81,6 +81,7 @@ func InitialModel() AddModel {
 func (m AddModel) Init() tea.Cmd {
 	return textinput.Blink
 }
+
 func (m AddModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	var cmds []tea.Cmd = make([]tea.Cmd, len(m.inputs))
 
