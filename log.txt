@@ -1,0 +1,13 @@
+[?25l[?1049h[2J[H[?25l[?2004h[H                                                
+  2 items                                       
+                                                
+                                                
+  1/2                                           
+                                                
+  ↑/k up • ↓/j down • / filter • q quit • ? more[7;H[2K[?2004l[?25h[?1002l[?1003l[?1006l[?1049l[?25hCaught panic:
+
+runtime error: index out of range [0] with length 0
+
+Restoring terminal...
+
+Error running program: program was killed: program experienced a panic
