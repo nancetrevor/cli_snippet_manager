@@ -1,6 +1,9 @@
 # snip
 
 `snip` is a terminal UI for saving and browsing command snippets.
+Built using [BubbleTea](https://github.com/charmbracelet/bubbletea)
+
+<img width="1470" height="855" alt="snipSnapshot" src="https://github.com/user-attachments/assets/980f88d0-17e2-42a0-9e36-41694ae7bc26" />
 
 ## Features
 
