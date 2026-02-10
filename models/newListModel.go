@@ -35,6 +35,6 @@ func NewListModel(items []list.Item, delegate list.ItemDelegate) ListModel {
 			keys.Delete,
 		}
 	}
-	l.Title = "My CLI Commands"
+	l.Title = "Saved Snips"
 	return ListModel{List: l}
 }
