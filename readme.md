@@ -2,6 +2,8 @@
 
 `snip` is a terminal UI for saving and browsing command snippets.
 
+<img src="assets/snip.gif" alt="Project Demo" width="700">
+
 ## Features
 
 - View saved snippets in a keyboard-driven list UI
